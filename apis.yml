@@ -1,8 +1,27 @@
 aid: believer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/believer.png
 name: Believer
-description: Believer is a company surfaced as a portfolio company of a16z, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  The Believer Company (Believer) is a global games company headquartered in Los
+  Angeles that develops and publishes player-focused interactive entertainment for
+  players worldwide. Assembled from veterans behind titles such as Words With Friends,
+  League of Legends, Destiny, and Plants vs. Zombies, and backed by a16z and Lightspeed
+  Venture Partners, Believer builds next-generation game worlds with an emphasis on
+  community, player investment, and immersive experiences. As of this profile, Believer
+  publishes a company site and a careers surface but no public developer portal, API,
+  documentation, or programmatic developer surface — so this entry carries company
+  identity only, with no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/believer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +32,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Games
+- Gaming
+- Video Games
+- Interactive Entertainment
+- Game Development
+- Los Angeles
 apis: []
+common:
+- type: Website
+  url: https://believer.gg
+  name: Believer Company Website
+- type: Careers
+  url: https://believer.gg/jobs/
+  name: Believer Careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/the-believer-company/
+  name: The Believer Company on LinkedIn
+- type: DomainSecurity
+  url: https://raw.githubusercontent.com/api-evangelist/believer/refs/heads/main/security/believer-domain-security.yml
+  name: Domain Security Probe
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
